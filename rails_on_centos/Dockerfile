@@ -42,8 +42,8 @@ RUN git clone https://github.com/rbenv/rbenv.git /root/.rbenv && \
 
 # Ruby のインストール（最新の安定バージョンを指定）
 RUN source /root/.bashrc && \
-    rbenv install 3.1.2 && \
-    rbenv global 3.1.2 && \
+    rbenv install 3.2.1 && \
+    rbenv global 3.2.1 && \
     rbenv rehash
 
 # Bundler をインストール
